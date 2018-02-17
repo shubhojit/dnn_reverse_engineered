@@ -1,3 +1,4 @@
+## Please read this paper before going through the code: https://www.aaai.org/ocs/index.php/AAAI/AAAI15/paper/view/9745/9552
 import gensim
 import numpy as np
 import string
