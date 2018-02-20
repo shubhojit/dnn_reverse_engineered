@@ -29,9 +29,9 @@ The idea being, that for each layer, the feature-maps of all preceding layers wi
 
 NEXT STEPS:
 
-1) Train an encoder-decoder kind of a architecture where the encoder maps the input sentence to a sentence vector and the decoder generates the sentences surrounding the original sentence.
+1) Train an encoder-decoder kind of an architecture where the encoder maps the input sentence to a sentence vector and the decoder generates the sentences surrounding the original sentence.
 2) The data used for training purposes would in the form of sentence tuples such that it incorporates the previous sentence, current sentence and the next sentence.
-3) An encoder would then maps the words to a sentence vector and a decoder is used to generate the surrounding sentences. More concretely, an encoder is used to map e.g. an English sentence into a vector. The decoder then conditions on this
+3) An encoder would then map the words to a sentence vector and a decoder is used to generate the surrounding sentences. More concretely, an encoder is used to map e.g. an English sentence into a vector. The decoder then conditions on this
 vector to generate a translation for the source English sentence.
 4) https://arxiv.org/pdf/1506.06726.pdf
 5) The objective is that the sum of the log-probabilities for the forward and backward sentences should be conditioned on the encoder's output
